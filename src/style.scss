@@ -1,0 +1,228 @@
+$titre: 'Oswald', sans-serif;
+$desc: 'Roboto', sans-serif;
+$color1: #ffffff;
+$color2: #000000;
+$color3: #d42323; 
+$color4: #706e6e; 
+$size1: 50vh;
+$size2: 100vh;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.accueil1 {
+    background: url(../img/travel-landscape-1.jpg);
+    height: $size1;
+    background-position: 90% 13%;
+    color: $color1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .titre {
+        margin-right: 300px;
+    }
+
+    h1 {
+        font-family: $titre;
+        font-size: 4rem;
+    }
+
+    p {
+        font-family: $desc;
+    }
+
+    button {
+        font-family: $titre;
+        margin-top: 15px;
+        font-size: 1.5rem;
+        background-color: #00000000;
+        color: $color1;
+        border: 2px solid $color1;
+        padding: 5px;
+        letter-spacing: 5px;
+    }
+}
+
+.accueil2{
+    height: $size1;
+    display: flex;
+    
+
+    .galerie__item {
+        width: 25%;
+       
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+   
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-family: $titre;
+        font-size: 3rem;
+       
+    }
+
+    h3 {
+        margin-top: 2rem;
+        
+    }
+
+
+    .trait{
+        height:3px;
+        width: 116px;
+        background-color: $color3;
+        margin-top: 2rem;
+
+    }
+
+
+    p {
+        font-family: $desc;
+        margin-top: 4rem;
+        line-height: 2;
+        font-weight: 300;
+        color: $color4;
+
+    }
+
+    img{
+        height: 500px;
+        margin-top: 300px;
+        margin-left: 100px;
+    }
+
+}
+
+
+.img-footer {
+    background: url(../img/travel-landscape-13.png);
+    height: $size2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+      h1 {
+        font-family: $titre; 
+        font-size: 5vh;
+      }
+
+      button {
+          font-family: $titre;
+          background-color: $color3;
+          color: $color1;
+          border: 0px;
+          padding: 7px;
+          font-size: 1rem;
+          width: 200px;
+          letter-spacing: 5px;
+          margin-top: 80px;
+      }
+
+     .couple {
+        background: url(../img/couple2.png);
+        height: 60%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+     }
+     .desc-fin{
+         margin-bottom: 50vh;
+     }
+
+
+}
+
+@media all and (max-width: 767px){
+
+    .accueil1 {
+
+        .titre {
+            margin-right:0;
+
+            h1{
+                font-size: 2.5rem;
+            }
+
+            p {
+                display: none;
+            }
+
+            button{
+                margin-left: 75px;
+            }
+        }
+        
+    }
+
+    .container {
+        flex-direction: column;
+
+        img{
+            margin-top: 0;
+            margin-left: 0;
+        }
+    }
+
+    .container{
+
+        .trait {
+            width: 80%;
+            margin-left: 19px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-left: 19px;
+            margin-top: 2rem;
+        }
+
+        h3 {
+            margin-left: 19px;
+        }
+
+        p {
+            line-height: 1;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-left: 19px;
+        }
+
+        img {
+            margin-bottom: 5rem;
+            border-radius: 5px;
+        }
+    }
+
+    .img-footer{
+        height: 64vh;
+        
+        
+        .couple{
+            
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    }
+}
+
