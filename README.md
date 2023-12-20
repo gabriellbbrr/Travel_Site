@@ -39,8 +39,8 @@ I approached this task with enthusiasm, putting into practice the knowledge gain
 3. Run the game and enjoy.
 
 ### The link to the [Github repository](https://github.com/gabriellbbrr/Travel_Site)
-![Texte alternatif](/assets/img/travel_3.png "Le titre de mon image")
-![Texte alternatif](/assets/img/travel_3.png "Le titre de mon image")
+![Texte alternatif](img/travel_1.png "Le titre de mon image")
+![Texte alternatif](img/Travel_2.png "Le titre de mon image")
 
 
-![Texte alternatif](/assets/img/travel_3.png "Le titre de mon image")
+![Texte alternatif](img/travel_3.png "Le titre de mon image")
